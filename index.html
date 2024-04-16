@@ -104,6 +104,9 @@
                 <span id="rotationValue">0</span>
             </div>
             <div>
+                <input type = "button" id = "clearCanvas" value = "Clear Canvas">
+            </div>
+            <div>
                 <label for="brush_shape">Choose a brush shape:</label>
                 <select name="brush_shape" id="shape">
                     <option value="square">Square</option>
@@ -124,12 +127,6 @@
     <script src="lib/cuon-utils.js"></script>
     <script src="lib/webgl-debug.js"></script>
     <script src="main.js"></script>
-    <script src="drawing.js"></script>
     <script src="Triangle.js"></script>
-    <script>
-        document.getElementById('meowButton').addEventListener('click', function() {
-            buildCreeperFace()
-        });
-    </script>
 </body>
 </html>
